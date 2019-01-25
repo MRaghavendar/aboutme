@@ -7,7 +7,7 @@
 ## ABOUT
 This repo is very useful for Web Apps and publish the pages.
 
-## To create gitHub repository:
+## To create gitHub repository
 - Login to GitHub.
 - Click on "+" symbol and create "new repository".
 - Write the repository name then select "public Repository" and create README.md and commit changes.
