@@ -7,6 +7,14 @@
 ## ABOUT
 This repo is very useful for Web Apps and publish the pages.
 
+## To create gitHub repository:
+- Login to GitHub.
+- Click on "+" symbol and create "new repository".
+- Write the repository name then select "public Repository" and create README.md and commit changes.
+- Inorder to create new file then click on " create new file". After naming the file, enter the content required and to save click on       commit changes.
+- We can write in README.md and click on commit changes.
+- Inorder to publish page. Go to settings and in source under github pages select master branch. copy the link and publish.
+
 ## RECOMMENDED TOOLS
 - HTML is used to create web pages and web application by MarkUp language.
 - CSS is independent of HTML and the language for describing the presentation of Web pages, including colors, layout, and fonts.
