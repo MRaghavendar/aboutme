@@ -12,9 +12,9 @@ This repo is very useful for Web Apps and publish the pages.
 - CSS is independent of HTML and the language for describing the presentation of Web pages, including colors, layout, and fonts.
 
 ## RECOMMENDED RESOURCE
-- HTML-  (https://www.w3schools.com/html/default.asp)
-- Javascript-  (https://www.w3schools.com/js/default.asp)
-- Python-  (https://www.w3schools.com/python/default.asp)
+- (https://www.w3schools.com/html/default.asp) - HTML
+- (https://www.w3schools.com/js/default.asp) - Javascript
+- (https://www.w3schools.com/python/default.asp) - Python
 
 ## CONTRIBUTORS
 This is Raghavendar Reddy Maddelavedu, I am currently pursuing Master Degree in Applied Computer Science.
