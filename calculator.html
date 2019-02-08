@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<title>Calculation</title>
+
+<head>
+    <meta charset="utf-6">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Index.css">
+</head>
+
+<body>
+    <h1>Temperature</h1>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="./calculator.html">WebSiteName</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="./Index.html">Home</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./calculator.html">Calculator</a></li>
+
+
+            </ul>
+        </div>
+    </nav>
+
+    <p>Enter the Number :</p>
+
+    <p> Degrees Celsius: <input id="c" onkeyup="convert('C')"></p>
+
+    <p> Degrees Fahrenheit: <input id="f" onkeyup="convert('F')"></p>
+
+
+    <script>
+        function convert(degree) {
+            var Fahrenheit;
+            if (degree == "C") {
+                Fahrenheit = document.getElementById("c").value * 9 / 5 + 32;
+                document.getElementById("f").value = Math.round(Fahrenheit);
+            } else {
+                Fahrenheit = (document.getElementById("f").value -32) * 5 / 9;
+                document.getElementById("c").value = Math.round(Fahrenheit);
+            }
+        }
+    </script>
+
+<div id="static">
+        <footer class="main-footer">
+            &copy; 2019 Raghavendar Reddy
+        </footer>
+    </div>
+
+</body>
+
+</html>
