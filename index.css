@@ -1,0 +1,168 @@
+
+body{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    min-height: 80rem;
+    padding-top: 5.5rem;
+    background-color:whitesmoke;
+}
+
+
+h1 {
+    border-style:black;
+    padding-top : 1rem;
+    padding-bottom : 1rem;
+    padding-left: 1rem;
+    -webkit-text-fill-color: rgb(168, 5, 5);    
+
+    
+
+}
+.img-circle {
+    border-radius: 50;
+}
+
+h2{
+    color:rgb(3, 9, 14); 
+}
+
+section{
+    margin:1rem;
+    padding:2rem;
+    padding-left: 2em;
+     background-color:rgb(19, 199, 88);
+     border: solid #5b6dcd 5px;
+
+    
+
+}
+
+aside{
+    margin:1rem;
+    padding:2rem;
+    border-style: solid;
+    border-radius: 1em;
+    border-color: firebrick;
+    background-color: rgb(146, 167, 187);
+    
+    
+    
+}
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+}
+
+.tg th {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 6px ;
+    border-style: solid;
+    border-width: 5px;
+    word-break: normal;
+    border-color: black;
+}
+
+.tg .tg-s268 {
+    text-align: left
+}
+
+.tg .tg-0lax {
+    text-align: left;
+    vertical-align: top
+}
+.navbar {
+    position: fixed; /* Set the navbar to fixed position */
+   top: 0%; /* Position the navbar at the bottom of the page */
+    width: 100%; /* Full width */
+  }
+  
+
+/*class*/
+.Head{
+    color: red;
+}
+
+.video{
+    margin: 1rem;
+    margin-right: 0%;
+
+}
+
+.icon{
+    width:1rem;
+    height: auto;
+}
+
+/* css from table generator*/
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin:auto;
+}
+
+.tg td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+}
+
+.tg th {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+}
+
+.tg .tg-0lax {
+    text-align: left;
+    vertical-align: top
+}
+/* end of css from table generator*/
+
+#picture{
+    width: 17em;
+    height: 21em;
+    margin:5px;
+    align: right;
+    
+   
+}
+
+#small-picture{
+    width: 24rem;
+    height: auto;
+    margin: 1rem;
+    align-content:right;
+    
+}
+#current{
+    width:100%;
+    margin-left:180px;
+    margin-right:20px;
+    
+}
+#static{
+    position: static;
+}
