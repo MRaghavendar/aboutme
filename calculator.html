@@ -9,6 +9,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="Index.css">
+    <!-- <link rel="stylesheet" href="index.js"> -->
+    <script src="index.js"></script>
+    
 </head>
 
 <body>
@@ -19,9 +22,10 @@
                 <a class="navbar-brand" href="./calculator.html">WebSiteName</a>
             </div>
             <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="calculator.html">Calculator</a></li>
+                <li><a href="./Index.html">Home</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./calculator.html">Calculator</a></li>
+                <li><a href="./qunit.html">Qunit</a></li>
 
 
             </ul>
@@ -29,12 +33,8 @@
     </nav>
 
     <p>Enter the Number :</p>
-
     <p> Degrees Celsius: <input id="c" onkeyup="convert('C')"></p>
-
     <p> Degrees Fahrenheit: <input id="f" onkeyup="convert('F')"></p>
-
-
     <script>
         function convert(degree) {
             var Fahrenheit;
@@ -47,13 +47,15 @@
             }
         }
     </script>
+    <br>
+    <button id="GoodQuotes" onclick="sendTheAJAX()" class="button">Click me</button>
+    <div id="ajax">
+    </div>
 
 <div id="static">
         <footer class="main-footer">
             &copy; 2019 Raghavendar Reddy
         </footer>
     </div>
-
 </body>
-
 </html>
